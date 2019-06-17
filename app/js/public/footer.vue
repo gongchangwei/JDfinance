@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <ul>
+        <!-- <ul>
             <li>
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t2971/333/1297567079/898/f2d2e00d/577dc28dNe5138337.png?width=108&height=108" alt="">
                 <h4>客户端</h4>
@@ -13,7 +13,7 @@
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t2920/282/1283157010/1040/23f1430b/577cf3e5N53f740b8.png?width=108&height=108" alt="">
                 <h4>电脑版</h4>
             </li>
-        </ul>
+        </ul> -->
         <p>Copyright &copy;2004-2018 京东JD.com 版权所有</p>
         <p>投资有风险，购买需谨慎</p>
         <p>京东金融平台服务协议</p>

@@ -19,7 +19,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper';
         props:{
             cname:{
                 type:String,
-                default:''
+                default:'',
             },
             options: {
                 type:Object,

@@ -1,9 +1,9 @@
 <template>
     <Panel :class="$style.panel" title="更多服务">
         <article :class="$style.list">
-            <section v-for="item in items" :key="item.href">
+            <section v-for="item in items" :key="item.img">
                 <router-link :to="{name:item.href}">
-                    <img :src="item.src" alt="">
+                    <img :src="item.src" alt="item.title">
                     <h4>{{item.title}}</h4>
                 </router-link>
             </section>

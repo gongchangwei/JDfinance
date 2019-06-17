@@ -1,43 +1,40 @@
 <template>
-    <div :class="$style.header">
-        <span>
-            注册 | 登录
-        </span>      
-        <btn :class="$style.download">APP下载</btn>
-    </div>
+	<Panel :class="$style.panel">
+		京东金融
+	</Panel>
 </template>
 
 <script>
-import btn from '../core/btn.vue'
+import Panel from '../core/panel.vue'
     export default {
         components:{
-            btn,
-        }
+            Panel,
+        },
     }
 </script>
 
 <style lang="scss" module>
-.header{
-    color:#666;
-    height:100px;
-    line-height:100px;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    z-index:100;
-    background:#F9F9F9 url(//m.jr.jd.com/spe/qyy/main/images/jr-logo.png) center center no-repeat;
-    background-size:auto 50%;
-    span{
-        font-size:28px;
-        margin-left:24px;
-    }
-    .download{
-        float:right;
-        height:56px;
-        line-height:56px;
-        min-width:120px;
-        margin:22px 24px 0 0;
-    }
-}
+@import '../../css/element.scss';
+	.panel{
+		>h4{
+			display: none;
+		}
+		float: left;
+		padding: 0 140px;
+		width: 360px;
+		height: 88px;
+		line-height: 88px;
+		border-bottom: 1px solid #e5e5e5;
+		font-size: 32px;
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		z-index:100;
+		text-align: center;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
 </style>

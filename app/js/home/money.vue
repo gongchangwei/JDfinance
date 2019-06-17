@@ -20,27 +20,27 @@ import Panel from '../core/panel.vue';
         data(){
             return{
                 items:[{
-                    title:'定期理财',
-                    sub:'理财首选',
-                    ratel:'5.60%',
-                    text:'历史年化回报率'
+                    title:'长乐盈',
+                    sub:'180天可质押',
+                    ratel:'5.80%',
+                    text:'近1年历史年化投资回报率'
                 },
                 {
-                    title:'小白理财',
-                    sub:'理财首选',
-                    ratel:'4.22%',
-                    text:'7日年化收益率'
+                    title:'京智0号',
+                    sub:'大数据赋能',
+                    ratel:'6.00%',
+                    text:'近1月历史年化投资回报率'
                 },
                 {
-                    title:'月月盈',
-                    sub:'养老保障',
-                    ratel:'5%',
-                    text:'七日年化收益率'
+                    title:'建信养老飞益鑫',
+                    sub:'稳定',
+                    ratel:'4.57%',
+                    text:'近七日年化收益'
                 },
                 {
                     title:'小白基金',
-                    sub:'天天赚钱',
-                    ratel:'4.27%',
+                    sub:'超短期',
+                    ratel:'4.50%',
                     text:'7日年化收益率'
                 }]
             }
