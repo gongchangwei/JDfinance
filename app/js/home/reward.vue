@@ -1,7 +1,7 @@
 <template>
-    <Panel title="众筹新品" :class="$style.panel">
+    <Panel title="赏金任务" :class="$style.panel">
         <section :class="$style.content">
-            <div :class="$style.arrow">更多尖货 &gt;</div>
+            <div :class="$style.arrow">查看更多任务 &gt;</div>
             <Slider :options="options" :items="items" cname="product-slider"/>        
         </section>
     </Panel>
@@ -23,18 +23,18 @@ import Slider from '../core/slider.vue';
                     freeMode: true
                 },
                 items:[{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/30149/40/8970/20149/5ca2e84dE7641a4dc/342b926b8582a140.jpg?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t26893/316/1416172900/5740/58f20b1e/5bc82e3aN7aa90a89.png?width=210&height=260',
                     href:'1'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/19514/33/13824/16597/5ca2e84eE4b9cc39a/23b319b8846b585c.png?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t26767/72/1365822552/8516/2e071d95/5bc82e6eN0be93809.png?width=210&height=260',
                     href:'2'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/12202/17/13916/19329/5ca2e84fE6bde713f/ff4f3231eb4c7312.jpg?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t27040/190/1395454031/8316/d3d74de2/5bc82eb2N34a7625d.png?width=210&height=260',
                     href:'3'
-                }/* ,{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t19438/256/457591773/38627/1f0fb065/5a7d5bd0N656c015c.jpg?width=335&height=421',
+                },{
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t26182/297/1417522782/7864/19181a3b/5bc82ec0N0824153d.png?width=210&height=260',
                     href:'4'
-                } */]
+                }]
             }
         }
     }

@@ -2,9 +2,6 @@
     <article>
         <Slider :items="items" :cname="$style.slider" />
         <section :class="$style.list">
-            <router-link to="{name:'//sale.jd.com/m/act/ljXgxWmt0OVurynd.html?sid=&qingfrom=pcurl/?from=jrad_1830098'}">
-                <img src="//img12.360buyimg.com/jrpmobile/jfs/t5842/235/8356236245/38364/2112fd7e/597a95d4Ne01da140.png?width=750&height=270" alt="">
-            </router-link>
         </section>
     </article>
 </template>
@@ -18,15 +15,21 @@ import Slider from '../core/slider.vue';
         data(){
             return{
                 items:[{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t11149/181/856008463/68797/dc303e9/59f97baeN3cdae084.jpg?width=750&height=400',
-                    herf:'https://storage.jd.com/bk.jd.com/static/m/bcm_act.html?applyChannel=MOBILE-OPEN2&sid=&qingfrom=pcurl/?from=jrad_1830098'
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/53518/5/2325/49052/5d030e52Ec7acdeca/0d9632ae76e5b1ae.png?width=686&height=396',
+                    href:'money'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t10405/120/2592801005/36022/d8f57852/59f97c14Nfb960073.png?width=750&height=400',
-                    href:'home'
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/46879/19/504/107897/5cdea0baE7a0eaf0c/d4db650be0adb4d4.png?width=750&height=400',
+                    // href:'money'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t9994/205/2575467053/189117/125e7b05/59f97c36N7599be57.png?width=750&height=400',
-                    href:'home'
-                }]
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/31588/6/14705/52443/5cbeb2b2Ea0648bba/e05f04db25d47126.png?width=750&height=400',
+                    // href:'money'
+                },{
+					src:'//img12.360buyimg.com/jrpmobile/jfs/t1/39579/28/7701/58742/5cedf514E09a23a3f/e56192beb56f80f3.jpg?width=750&height=400',
+					// href:'money'
+				},{
+					src:'//img12.360buyimg.com/jrpmobile/jfs/t1/38925/1/7734/32802/5cef91cfE8962dc90/08a7df363c6465f2.png?width=750&height=400',
+					// href:'money'
+				}]
             }
         }
     }
@@ -35,7 +38,7 @@ import Slider from '../core/slider.vue';
 <style lang="scss" module>
 @import '../../css/element.scss';
 .slider{
-    margin:120px 0 20px;
+    margin:90px 0 20px;
     img{
         width:100%;
     }

@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 export default new VueRouter({
     routes:[{
         name:'home',
-        path:'/',
+        path:'/home',
         component:Home
     },{
         name:'money',

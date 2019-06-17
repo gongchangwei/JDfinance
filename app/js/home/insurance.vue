@@ -1,7 +1,7 @@
 <template>
-    <Panel title="众筹新品" :class="$style.panel">
+    <Panel title="保险保障" :class="$style.panel">
         <section :class="$style.content">
-            <div :class="$style.arrow">更多尖货 &gt;</div>
+            <div :class="$style.arrow"></div>
             <Slider :options="options" :items="items" cname="product-slider"/>        
         </section>
     </Panel>
@@ -23,18 +23,21 @@ import Slider from '../core/slider.vue';
                     freeMode: true
                 },
                 items:[{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/30149/40/8970/20149/5ca2e84dE7641a4dc/342b926b8582a140.jpg?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/19965/4/1946/28370/5c18958aE9e8a930d/9810bed7979e6bd5.jpg?width=210&height=260',
                     href:'1'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/19514/33/13824/16597/5ca2e84eE4b9cc39a/23b319b8846b585c.png?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/27283/39/2034/26756/5c1895b5Ecbfdf7ed/6a0755f1f40e2eb9.jpg?width=210&height=260',
                     href:'2'
                 },{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/12202/17/13916/19329/5ca2e84fE6bde713f/ff4f3231eb4c7312.jpg?width=335&height=421',
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/27014/35/2022/24897/5c1895d9Ef095679a/c0918d244bbfb2e5.jpg?width=210&height=260',
                     href:'3'
-                }/* ,{
-                    src:'//img12.360buyimg.com/jrpmobile/jfs/t19438/256/457591773/38627/1f0fb065/5a7d5bd0N656c015c.jpg?width=335&height=421',
+                },{
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/19150/30/2037/31576/5c1895f2Eb431149e/7a71e063250f8b0d.jpg?width=210&height=260',
                     href:'4'
-                } */]
+                },{
+                    src:'//img12.360buyimg.com/jrpmobile/jfs/t1/9279/3/9618/27165/5c189693E5d54e2cb/c263629839992767.jpg?width=210&height=260',
+                    href:'5'
+                }]
             }
         }
     }

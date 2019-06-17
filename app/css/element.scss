@@ -32,3 +32,56 @@
         white-space: nowrap;
     }   
 }
+
+@mixin panel2(
+	$fontSize:36px,$fontSize1:24px,
+	$fontWeight:700,$fontWeight1:400,
+	$color:#333,$color1:#999,
+	$width:316px,$width1:192px,
+	$bgColor:#fff,
+	$height:120px,
+	$txtPadding:0 30px,$txtPadding1:0 24px,
+	$margin-right1:30px,
+	$padding:0 0 40px,
+	$margin:0 0 20px
+){
+    font-size: $fontSize;
+    background-color:$bgColor;
+    height: auto;
+	padding: $padding;
+	margin: $margin;
+    >h4{
+        font-size: $fontSize;
+        font-weight: $fontWeight;
+        color: $color;
+		width: $width;
+        height:$height;
+        line-height: $height;
+        padding:$txtPadding;
+        text-align:left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+		display: inline-block;
+    }
+	>h5{
+		font-size:$fontSize1;
+		font-weight: $fontWeight1;
+		color: $color1;
+		width: $width1;
+		height:$height;
+		line-height: $height;
+		padding:$txtPadding1;
+		text-align:right;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		display: inline-block;
+	}
+}
+
+@mixin wrap($height:260px){
+	height: $height;
+	overflow: hidden;
+    box-shadow: 0 0 20px 1px rgba(101,118,155,.15);
+}
